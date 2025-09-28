@@ -46,9 +46,11 @@ const Projects = () => {
 
         <section className="container mx-auto mb-5 col-md-9 col-sm">
 
+          <h2 className="unshown">Projets</h2>
+
           <div className="row gap-3 mb-3">
 
-
+            
             {/* Projet Fresh Food */}
 
             <article className="col-md col-sm-12 gap-3 card text-center p-0">
