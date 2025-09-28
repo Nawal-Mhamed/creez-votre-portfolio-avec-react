@@ -83,6 +83,7 @@ footer a i {
 
     .disable-hover:hover {
       text-decoration: none;
+      pointer-events: none;
     }
 
     /* Cards */

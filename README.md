@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Create a portfolio with React.JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What's this project for?
 
-## Available Scripts
+The objective of this project is to use React.JS to replicate the John Doe's fictional portfolio.\
+The main goal is to practice using this framework and improve my web development skills (including HTML and CSS).
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this project properly, you need to:
 
-### `npm test`
+- Install the latest LTS version of Node.js and npm: 
+1. Download the correct file installer according to your OS on https://nodejs.org/fr/download.
+2. Run the dowloaded file and follow the steps.
+3. Open your terminal and run `node --version` and then `npm --version` to check the installation. It will show you the version you've downloaded.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- For Windows users, install bash on VSCode:
+1. Install Git on https://git-scm.com/downloads.Run the dowloaded and follow the step.
+2. Open VS Code and press CTRL + Shift + p or click on "View" > "Command Palette".
+3. Enter "select default shell" and press Enter.
+4. Select Git Bash.
+5. Open your terminal with CTRL + ù or click on "Terminal" > "New Terminal".
 
-### `npm run build`
+- Have software to unzip a .zip file (WinRar, for example).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Get started !
 
-### `npm run eject`
+- Open the project on VS Code:
+1. Click on "<> Code" button and select "Download ZIP".
+2. Unzip the folder contained in the .zip file.
+3. Open VS Code and select "Open Folder" in the explorer or "File" > "Open Folder" and choose the unzipped folder `creez-votre-portfolio-avec-react-main`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Open your terminal (CTRL + ù or "Terminal" > "New Terminal").
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Run `npm run start`. A new window will open on your default browser and you can see the website !
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### It doesn't work because some React dependencies are missing...
 
-## Learn More
+- You can add all the React dependencies needed by running the following commands on your terminal:
+    - React-helmet: `npm i react-helmet`
+    - React-router-dom: `npm i react-router-dom`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### The icons are not visible...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- You can add all the Bootstrap dependencies needed by running the following commands on your terminal:
+    - Bootstrap: `npm i react-bootstrap bootstrap`
+    - Bootstrap icons: `npm i bootstrap-icons`
