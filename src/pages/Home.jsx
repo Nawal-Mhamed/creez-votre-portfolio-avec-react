@@ -1,7 +1,32 @@
 import johndoe from "../images/john-doe-about.jpg";
 import Footer from "../components/Footer";
+import React, { useState, useEffect } from "react";
+import { Modal, Button } from "react-bootstrap";
 
 const Home = () => {
+  
+  { /* Function for getting informations from the API */}
+
+  const [users, setUsers] = useState([]);
+
+  const getUsers = async () => {
+    const res = await fetch("https://api.github.com/users/github-john-doe");
+    const json = await res.json();
+    setUsers([json]);
+  };
+
+  useEffect(() => {
+    getUsers();
+  }, []);
+
+  { /* Function for opening the modal */ }
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
   return (
     <div>
     <main>
@@ -14,10 +39,73 @@ const Home = () => {
           <h2 class="p-1 display-4">
             <strong>Développeur web full stack</strong>
           </h2>
-          <a href="#apropos" class="btn btn-danger">
+          <button class="btn btn-danger" onClick={handleShow}>
             En savoir plus
-          </a>
+          </button>
         </div>
+
+        {/* Modale */}
+
+          <Modal show={show} onHide={handleClose} size="xl" centered>
+            <Modal.Header closeButton>
+              <Modal.Title>Mon profil GitHub</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              {users.map((user) => (
+                <section class="container-fluid">
+                  <div class="row">
+                    <article class="col-6">
+                      <img
+                        src={user.avatar_url}
+                        alt={user.name}
+                        title={user.name}
+                        class="img-fluid p-3"
+                      ></img>
+                    </article>
+                    <article class="col-6 p-3">
+                      <p>
+                        <i class="bi bi-person"></i>
+                        &nbsp;
+                        <a href="https://github.com/github-john-doe">
+                          {user.name}
+                        </a>
+                      </p>
+                      <hr />
+                      <p>
+                        <i class="bi bi-geo-alt"></i>
+                        {user.location}
+                      </p>
+                      <hr />
+                      <p>
+                        <i class="bi bi-card-text"></i>
+                        &nbsp; {user.bio}
+                      </p>
+                      <hr />
+                      <p>
+                        <i class="bi bi-box"></i>
+                        &nbsp; Repositories : {user.public_repos}
+                      </p>
+                      <hr />
+                      <p>
+                        <i className="bi bi-people"></i>
+                        &nbsp; Followers : {user.followers}
+                      </p>
+                      <hr />
+                      <p>
+                        <i className="bi bi-people"></i>
+                        &nbsp; Following :{user.following}
+                      </p>
+                    </article>
+                  </div>
+                </section>
+              ))}
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleClose}>
+                Fermer
+              </Button>
+            </Modal.Footer>
+          </Modal>
       </header>
 
       {/* Informations John Doe */}
