@@ -42,7 +42,6 @@ To run this project properly, you need to:
 ### It doesn't work because some React dependencies are missing...
 
 - You can add all the React dependencies needed by running the following commands on your terminal:
-    - React-helmet: `npm i react-helmet`
     - React-router-dom: `npm i react-router-dom`
 
 ### The icons are not visible...
