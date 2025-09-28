@@ -3,14 +3,19 @@ import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav class="text-uppercase navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <div>
-          <Link to="/" class="navbar-brand ps-4">
-            John Doe
-          </Link>
-        </div>
-                <button
+    <nav className="text-uppercase navbar navbar-expand-lg navbar-dark bg-dark">
+      
+      <div className="container-fluid">
+
+        { /* Logo textuel */ }
+
+        <Link to="/" className="navbar-brand ps-3">
+          John Doe
+        </Link>
+
+        { /* Menu burger */ }
+
+        <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -19,14 +24,21 @@ const Nav = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
         </button>
+        
+        { /* Boutons de navigation */ }
+
         <div
-          class="collapse navbar-collapse md-d-flex justify-content-end"
+          className="collapse navbar-collapse md-d-flex justify-content-end"
           id="navbarNavDropdown"
         >
-          <ul class="navbar-nav mb-2 mb-lg-0 ps-4">
-            <li class="nav-item">
+
+          <ul className="navbar-nav mb-2 mb-lg-0 ps-3">
+
+            { /* Accueil */ }
+
+            <li className="nav-item">
               <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
@@ -40,7 +52,10 @@ const Nav = () => {
                 Accueil
               </NavLink>
             </li>
-            <li class="nav-item">
+
+            { /* Services */ }
+
+            <li className="nav-item">
               <NavLink
                 to="/services"
                 className={({ isActive, isPending }) =>
@@ -54,7 +69,10 @@ const Nav = () => {
                 Services
               </NavLink>
             </li>
-            <li class="nav-item">
+
+            { /* Portfolio */ }
+
+            <li className="nav-item">
               <NavLink
                 to="/portfolio"
                 className={({ isActive, isPending }) =>
@@ -68,7 +86,10 @@ const Nav = () => {
                 Portfolio
               </NavLink>
             </li>
-            <li class="nav-item">
+
+            { /* Contact */ }
+
+            <li className="nav-item">
               <NavLink
                 to="/contact"
                 className={({ isActive, isPending }) =>
@@ -82,7 +103,10 @@ const Nav = () => {
                 Contact
               </NavLink>
             </li>
-            <li class="nav-item">
+
+            { /* Mentions légales */ }
+
+            <li className="nav-item">
               <NavLink
                 to="/mentions-legales"
                 className={({ isActive, isPending }) =>
@@ -96,9 +120,13 @@ const Nav = () => {
                 Mentions légales
               </NavLink>
             </li>
+
           </ul>
+
         </div>
+
       </div>
+
     </nav>
   );
 };

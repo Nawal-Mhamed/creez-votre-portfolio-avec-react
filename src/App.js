@@ -14,16 +14,29 @@ import "./styles.css";
 export default function App() {
   return (
     <div>
-      <header class="sticky-top">
+
+      { /* Barre de navigation */ }
+
+      <header className="sticky-top">
+
         <Nav />
+
         <Routes>
+
           <Route path="/" element={<Home />} />
+
           <Route path="/services" element={<Services />} />
+
           <Route path="/portfolio" element={<Projects />} />
+
           <Route path="/contact" element={<Contact />} />
+
           <Route path="/mentions-legales" element={<LegalNotices />} />
+          
         </Routes>
+
       </header>
+
     </div>
   );
 }
