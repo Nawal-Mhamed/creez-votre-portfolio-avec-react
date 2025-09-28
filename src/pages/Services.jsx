@@ -38,6 +38,8 @@ const Services = () => {
 
         <section className="container mx-auto mb-5 col-md-9 col-sm">
 
+          <h2 className="unshown">Mes domaines de compétences</h2>
+
           <div className="row gap-4">
 
             {/* UX Design */}
