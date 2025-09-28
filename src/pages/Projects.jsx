@@ -27,10 +27,10 @@ const Projects = () => {
         </header>
 
         {/* Contenu du Portfolio */}
-        <section class="container mx-auto mb-5">
+        <section class="container mx-auto mb-5 col-md-9 col-sm">
           <div class="row gap-3 mb-3">
             {/* Projet Fresh Food */}
-            <article class="col gap-3 card text-center p-0">
+            <article class="col-md col-sm-12 gap-3 card text-center p-0">
               <img src={FreshFood} class="card-img-top" alt="" title=""></img>
               <div class="card-body">
                 <h2>Fresh Food</h2>
@@ -47,7 +47,7 @@ const Projects = () => {
             </article>
 
             {/* Projet Restaurant Akira */}
-            <article class="col gap-3 card text-center p-0">
+            <article class="col-md col-sm-12 gap-3 card text-center p-0">
               <img src={Akira} class="card-img-top" alt="" title=""></img>
               <div class="card-body">
                 <h2>Restaurant Akira</h2>
@@ -62,7 +62,7 @@ const Projects = () => {
             </article>
 
             {/* Projet Espace bien-être */}
-            <article class="col gap-3 card text-center p-0">
+            <article class="col-md col-sm-12 gap-3 card text-center p-0">
               <img src={Zen} class="card-img-top" alt="" title=""></img>
               <div class="card-body">
                 <h2>Espace bien-être</h2>
@@ -79,7 +79,7 @@ const Projects = () => {
 
           <div class="row gap-3">
             {/* Projet SEO */}
-            <article class="col card text-center p-0">
+            <article class="col-md col-sm-12 card text-center p-0">
               <img src={SEO} class="card-img-top" alt="" title=""></img>
               <div class="card-body">
                 <h2>SEO</h2>
@@ -94,7 +94,7 @@ const Projects = () => {
             </article>
 
             {/* Projet API */}
-            <article class="col card text-center p-0">
+            <article class="col-md col-sm-12 card text-center p-0">
               <img src={API} class="card-img-top" alt="" title=""></img>
               <div class="card-body">
                 <h2>Création d'une API</h2>
@@ -107,7 +107,7 @@ const Projects = () => {
             </article>
 
             {/* Projet Maquette */}
-            <article class="col card text-center p-0">
+            <article class="col-md col-sm-12 card text-center p-0">
               <img src={Website} class="card-img-top" alt="" title=""></img>
               <div class="card-body">
                 <h2>Maquette d'un site web</h2>
