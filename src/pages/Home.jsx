@@ -179,6 +179,8 @@ const Home = () => {
         className="shadow rounded grid gap-5 mx-auto p-4 mb-5 col-md-9 col-sm-11"
       >
 
+        <h2 className="unshown">Mon profil</h2>
+
         {/* À propos */}
 
         <div className="row gap-3">
