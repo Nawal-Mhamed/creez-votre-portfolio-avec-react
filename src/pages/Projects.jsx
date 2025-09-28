@@ -31,14 +31,18 @@ const Projects = () => {
         <img src={Banner} className="img-fluid" alt="" title=""></img>
 
         <header className="d-flex flex-column text-center align-items-center">
+
           <h1 className="pt-5">Portfolio</h1>
+
           <p>Voici quelques-unes de mes réalisations</p>
+
           <hr className="border border-primary border-3 opacity-75 mb-5 w-50"></hr>
+
         </header>
 
 
 
-        {/* Contenu du Portfolio */}
+        {/* Cards du Portfolio */}
 
         <section className="container mx-auto mb-5 col-md-9 col-sm">
 
@@ -204,7 +208,7 @@ const Projects = () => {
 
 
       <Footer />
-      
+
     </div>
   );
 };
