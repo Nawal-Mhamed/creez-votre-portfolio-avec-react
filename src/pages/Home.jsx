@@ -33,7 +33,7 @@ const Home = () => {
       { /* Changement nom de la page */ }
 
       <head>
-        <title>John Doe - Contact</title>
+        <title>John Doe</title>
       </head>
 
       { /* Contenu de la page */ }
