@@ -9,7 +9,7 @@ const Nav = () => {
 
         { /* Logo textuel */ }
 
-        <Link to="/" className="navbar-brand ps-3">
+        <Link to="/" className="navbar-brand ps-3 disable-hover">
           John Doe
         </Link>
 
