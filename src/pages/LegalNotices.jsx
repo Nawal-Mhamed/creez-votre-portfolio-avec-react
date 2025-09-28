@@ -15,7 +15,7 @@ const LegalNotices = () => {
           <hr class="border border-primary border-3 opacity-75 mb-5 w-50"></hr>
         </header>
 
-        <div class="accordion w-75 mx-auto pb-5" id="accordionExample">
+        <div class="accordion col-md-9 col-sm-11 mx-auto pb-5" id="accordionExample">
           {/* Informations éditeur du site */}
           <div class="accordion-item">
             <h2 class="accordion-header">

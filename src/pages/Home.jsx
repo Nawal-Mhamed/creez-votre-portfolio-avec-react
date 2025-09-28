@@ -54,7 +54,7 @@ const Home = () => {
               {users.map((user) => (
                 <section class="container-fluid">
                   <div class="row">
-                    <article class="col-6">
+                    <article class="col-md-6 col-sm-12">
                       <img
                         src={user.avatar_url}
                         alt={user.name}
@@ -62,7 +62,7 @@ const Home = () => {
                         class="img-fluid p-3"
                       ></img>
                     </article>
-                    <article class="col-6 p-3">
+                    <article class="col-md-6 col-sm-12 p-3">
                       <p>
                         <i class="bi bi-person"></i>
                         &nbsp;
@@ -111,11 +111,11 @@ const Home = () => {
       {/* Informations John Doe */}
       <section
         id="apropos"
-        class="shadow rounded grid gap-5 mx-auto p-4 mb-5 w-75"
+        class="shadow rounded grid gap-5 mx-auto p-4 mb-5 col-md-9 col-sm-11"
       >
         {/* À propos */}
-        <div class="row">
-          <article class="col-6">
+        <div class="row gap-3">
+          <article class="col-md col-sm-12">
             <h3>À propos</h3>
             <hr class="border border-primary border-3 opacity-75 mb-5"></hr>
             <img
@@ -145,7 +145,7 @@ const Home = () => {
           </article>
 
           {/* Compétences */}
-          <article class="col-6">
+          <article class="col-md col-sm-12">
             <h3>Mes compétences</h3>
             <hr class="border border-primary border-3 opacity-75 mb-5"></hr>
             <p>

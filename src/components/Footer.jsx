@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer class="container-fluid bg-dark text-white py-4 pb-5">
-      <div class="row mx-auto w-75">
-        <div class="col-4">
+      <div class="row mx-auto gap-md-0 gap-sm-3 w-75">
+        <div class="col-md-4 col-sm-12">
           <h4>John Doe</h4>
           <p>
             40 rue Laure Diebold
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
           <h4>Liens utiles</h4>
           <ul class="list-unstyled mb-2 mb-lg-0">
             <li>
@@ -72,7 +72,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
           <h4>Mes dernières réalisations</h4>
           <ul class="list-unstyled mb-2 mb-lg-0">
             <li>

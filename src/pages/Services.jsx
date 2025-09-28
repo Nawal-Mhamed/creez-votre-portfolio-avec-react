@@ -19,10 +19,10 @@ const Services = () => {
           <hr class="border border-primary border-3 opacity-75 mb-5 w-50"></hr>
         </header>
 
-        <section class="container mx-auto mb-5">
+        <section class="container mx-auto mb-5 col-md-9 col-sm">
           <div class="row gap-4">
             {/* UX Design */}
-            <article class="col gap-3 card text-center align-items-center p-0">
+            <article class="col-md-4 col-sm-12 gap-3 card text-center align-items-center p-0">
               <div class="pt-5">
                 <i class="bi bi-brush"></i>
               </div>
@@ -39,7 +39,7 @@ const Services = () => {
             </article>
 
             {/* Développement web */}
-            <article class="col gap-3 card text-center align-items-center p-0">
+            <article class="col-md-4 col-sm-12 gap-3 card text-center align-items-center p-0">
               <div class="pt-5">
                 <i class="bi bi-code-slash"></i>
               </div>
@@ -55,7 +55,7 @@ const Services = () => {
             </article>
 
             {/* Référencement */}
-            <article class="col gap-3 card text-center align-items-center p-0">
+            <article class="col-md-4 col-sm-12 gap-3 card text-center align-items-center p-0">
               <div class="pt-5">
                 <i class="bi bi-search"></i>
               </div>
