@@ -263,9 +263,7 @@ const Home = () => {
 
             { /* Javascript */ }
 
-            <p>
-              JAVASCRIPT 70%
-              </p>
+            <p>JAVASCRIPT 70%</p>
               <div className="progress">
                 <div
                   className="progress-bar bg-warning"
@@ -280,8 +278,7 @@ const Home = () => {
 
             { /* PHP */ }
 
-            <p>
-              PHP 60%
+            <p>PHP 60%</p>
               <div className="progress">
                 <div
                   className="progress-bar bg-success"
@@ -293,12 +290,10 @@ const Home = () => {
                   aria-valuemax="100"
                 ></div>
               </div>
-            </p>
 
             { /* ReactJS */ }
 
-            <p>
-              REACT 50%
+            <p>REACT 50%</p>
               <div className="progress">
                 <div
                   className="progress-bar bg-primary"
@@ -310,7 +305,6 @@ const Home = () => {
                   aria-valuemax="100"
                 ></div>
               </div>
-            </p>
 
           </article>
 
