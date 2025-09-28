@@ -33,6 +33,8 @@ const LegalNotices = () => {
 
         <section className="accordion col-md-9 col-sm-11 mx-auto pb-5" id="accordionExample">
 
+          <h2 className="hidden">Informations</h2>
+
           {/* Informations éditeur du site */}
 
           <div className="accordion-item">

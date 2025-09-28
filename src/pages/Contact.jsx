@@ -33,6 +33,8 @@ const Contact = () => {
     
         <section className="shadow rounded gap-5 mx-auto p-4 mb-5 col-md-9 col-sm-11">
 
+          <h2 className="hidden">Informations de contact</h2>
+
           {/* Formulaire */}
 
           <div className="row align-items-stretch gap-3">
