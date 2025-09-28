@@ -1,5 +1,4 @@
-/* Default*/
-
+/* ----- Default ----- */
 
 * {
   font-family: "Nunito Sans", sans-serif;
@@ -12,7 +11,6 @@ h3,
 strong {
   font-weight: 600;
 }
-
 
 i {
   font-size: 1rem;
@@ -36,7 +34,8 @@ footer a i {
 }
 
 
-/* Classes */
+
+/* ----- Classes ----- */
 
 .App {
   height: auto;
@@ -61,55 +60,72 @@ footer a i {
   height: 100vh;
 }
 
-/* Hover */
 
-a:hover {
-  text-decoration: underline;
-}
 
-.card {
-  transition: all 0.3s ease-in-out;
-}
 
-.card:hover {
-  background-color: #efefef;
-  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.15);
-  transform: scale(1.02);
-}
+/* ----- Hover ----- */
 
-.btn {
-  transition: all 0.3s ease-in-out;
-}
+  /* Links */
 
-.btn:hover {
-  filter: brightness(0.8);
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-footer a:hover {
-  font-weight: 600;
-  text-decoration: none;
-}
+    footer a:hover {
+      font-weight: 600;
+      text-decoration: none;
+    }
 
-footer a i:hover {
-  filter: brightness(2);
-  font-size: 2.5rem;
-}
+    footer a i:hover {
+      filter: brightness(2);
+      font-size: 2.5rem;
+    }
 
-/* Dark mode */
+    .disable-hover:hover {
+      text-decoration: none;
+    }
 
-@media (prefers-color-scheme: dark) {
-  .modal-content {
-    background-color: #212529;
-    color: #f8f9fa;
-    border: 1px solid #444;
-  }
+    /* Cards */
 
-  .modal-header,
-  .modal-footer {
-    border-color: #444;
-  }
+    .card {
+      transition: all 0.3s ease-in-out;
+    }
 
-  .btn-close {
-    filter: invert(1) grayscale(100%);
-  }
-}
+    .card:hover {
+      background-color: #efefef;
+      box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.15);
+      transform: scale(1.02);
+    }
+
+
+    /* Buttons */
+
+    .btn {
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+      filter: brightness(0.8);
+    }
+
+
+
+
+/* ----- Dark mode ----- */
+
+    @media (prefers-color-scheme: dark) {
+      .modal-content {
+        background-color: #212529;
+        color: #f8f9fa;
+        border: 1px solid #444;
+      }
+
+      .modal-header,
+      .modal-footer {
+        border-color: #444;
+      }
+
+      .btn-close {
+        filter: invert(1) grayscale(100%);
+      }
+    }

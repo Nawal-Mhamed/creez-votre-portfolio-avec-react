@@ -42,7 +42,7 @@ const Services = () => {
 
             {/* UX Design */}
 
-            <article className="col-md-4 col-sm-12 gap-3 card text-center align-items-center p-0">
+            <article className="col-md col-sm-12 gap-3 card text-center align-items-center p-0">
 
               <div className="pt-5">
                 <i className="bi bi-brush"></i>
@@ -67,7 +67,7 @@ const Services = () => {
 
             {/* Développement web */}
 
-            <article className="col-md-4 col-sm-12 gap-3 card text-center align-items-center p-0">
+            <article className="col-md col-sm-12 gap-3 card text-center align-items-center p-0">
 
               <div className="pt-5">
                 <i className="bi bi-code-slash"></i>
@@ -91,7 +91,7 @@ const Services = () => {
 
             {/* Référencement */}
 
-            <article className="col-md-4 col-sm-12 gap-3 card text-center align-items-center p-0">
+            <article className="col-md col-sm-12 gap-3 card text-center align-items-center p-0">
 
               <div className="pt-5">
                 <i className="bi bi-search"></i>

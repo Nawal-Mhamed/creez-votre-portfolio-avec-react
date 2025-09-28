@@ -99,7 +99,7 @@ const Contact = () => {
                 
                 { /* Bouton d'envoi */ }
 
-                <button type="submit" className="btn btn-primary align-self-center mb-5">
+                <button type="submit" className="btn btn-primary align-self-center">
                   Envoyer
                 </button>
 
@@ -111,7 +111,7 @@ const Contact = () => {
 
             {/* Coordonnées de John Doe */}
 
-            <article className="col-md col-sm-12">
+            <article className="col-md col-sm-12 d-flex flex-column">
 
               <h3>Mes coordonnées</h3>
 
