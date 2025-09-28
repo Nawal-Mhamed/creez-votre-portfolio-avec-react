@@ -17,8 +17,6 @@ export default function App() {
 
       { /* Barre de navigation */ }
 
-      <header className="sticky-top">
-
         <Nav />
 
         <Routes>
@@ -34,8 +32,6 @@ export default function App() {
           <Route path="/mentions-legales" element={<LegalNotices />} />
           
         </Routes>
-
-      </header>
 
     </div>
   );

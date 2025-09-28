@@ -73,7 +73,7 @@ const Home = () => {
 
               {users.map((user) => (
 
-                <section className="container-fluid">
+                <div className="container-fluid">
 
                   <div className="row">
 
@@ -151,7 +151,7 @@ const Home = () => {
 
                   </div>
 
-                </section>
+                </div>
               ))}
 
             </Modal.Body>
