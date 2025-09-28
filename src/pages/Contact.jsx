@@ -7,6 +7,7 @@ const Contact = () => {
       <head>
         <title>John Doe - Contact</title>
       </head>
+
       <main>
         <header class="d-flex flex-column align-items-center">
           <h1 class="pt-5">Contact</h1>
@@ -17,6 +18,7 @@ const Contact = () => {
           <hr class="border border-primary border-3 opacity-75 mb-5 w-50"></hr>
         </header>
 
+    
         <section class="shadow rounded gap-5 mx-auto p-4 mb-5 w-75">
           {/* Formulaire */}
           <div class="row align-items-stretch gap-3">

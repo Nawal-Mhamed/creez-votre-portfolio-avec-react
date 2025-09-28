@@ -5,9 +5,11 @@ import Banner from "../images/banner.jpg";
 const Services = () => {
   return (
     <div>
+
       <head>
         <title>John Doe - Services</title>
       </head>
+
       <main>
         <img src={Banner} class="img-fluid" alt="" title=""></img>
         <header class="d-flex flex-column text-center align-items-center">

@@ -13,9 +13,11 @@ import Website from "../images/portfolio/screens.jpg";
 const Projects = () => {
   return (
     <div>
+
       <head>
         <title>John Doe - Portfolio</title>
       </head>
+
       <main>
         <img src={Banner} class="img-fluid" alt="" title=""></img>
         <header class="d-flex flex-column text-center align-items-center">
@@ -33,9 +35,11 @@ const Projects = () => {
               <div class="card-body">
                 <h2>Fresh Food</h2>
                 <p>Site de vente de produits frais en ligne.</p>
+
                 <button class="btn btn-primary">
                   Voir le site
                 </button>
+
               </div>
               <p class="card-footer text-muted mb-0">
                 Site réalisé avec PHP et MySQL
