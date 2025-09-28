@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
 
 const LegalNotices = () => {
   return (
@@ -8,10 +7,10 @@ const LegalNotices = () => {
 
       { /* Changement nom de la page */ }
 
-      <Helmet>
+      <head>
         <meta name="robots" content="noindex" />
         <title>John Doe - Mentions légales</title>
-      </Helmet>
+      </head>
 
       { /* Contenu de la page */ }
 
@@ -66,7 +65,7 @@ const LegalNotices = () => {
 
               <article className="accordion-body">
 
-                <p className="h4">John Doe</p>
+                <h4>John Doe</h4>
 
                 <p>
                   <i className="bi bi-map"></i>40 rue Laure Diebold <br />
