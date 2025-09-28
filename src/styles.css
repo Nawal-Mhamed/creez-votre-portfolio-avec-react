@@ -19,6 +19,7 @@ i {
 }
 
 footer a i {
+  transition: all 0.3s ease-in-out;
   margin: 0rem 0.5rem;
   font-size: 2rem;
   line-height: 3rem;
@@ -64,6 +65,34 @@ footer a i {
 
 a:hover {
   text-decoration: underline;
+}
+
+.card {
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  background-color: #efefef;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+}
+
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  filter: brightness(0.8);
+}
+
+footer a:hover {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer a i:hover {
+  filter: brightness(2);
+  font-size: 2.5rem;
 }
 
 /* Dark mode */
