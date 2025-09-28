@@ -13,6 +13,11 @@ import Website from "../images/portfolio/screens.jpg";
 const Projects = () => {
   return (
     <div>
+
+      <head>
+        <title>John Doe - Portfolio</title>
+      </head>
+
       <main>
         <img src={Banner} class="img-fluid" alt="" title=""></img>
         <header class="d-flex flex-column text-center align-items-center">
@@ -30,9 +35,11 @@ const Projects = () => {
               <div class="card-body">
                 <h2>Fresh Food</h2>
                 <p>Site de vente de produits frais en ligne.</p>
-                <a class="btn btn-primary" href="#">
+
+                <button class="btn btn-primary">
                   Voir le site
-                </a>
+                </button>
+
               </div>
               <p class="card-footer text-muted mb-0">
                 Site réalisé avec PHP et MySQL
@@ -45,9 +52,9 @@ const Projects = () => {
               <div class="card-body">
                 <h2>Restaurant Akira</h2>
                 <p>Site pour un restaurant japonais.</p>
-                <a class="btn btn-primary" href="#">
+                <button class="btn btn-primary">
                   Voir le site
-                </a>
+                </button>
               </div>
               <p class="card-footer text-muted mb-0">
                 Site réalisé avec WordPress
@@ -60,9 +67,9 @@ const Projects = () => {
               <div class="card-body">
                 <h2>Espace bien-être</h2>
                 <p>Site d'une entreprise proposant des services bien-être.</p>
-                <a class="btn btn-primary" href="#">
+                <button class="btn btn-primary">
                   Voir le site
-                </a>
+                </button>
               </div>
               <p class="card-footer text-muted mb-0">
                 Site réalisé avec LARAVEL
@@ -77,9 +84,9 @@ const Projects = () => {
               <div class="card-body">
                 <h2>SEO</h2>
                 <p>Amélioration du référencement d'un site e-commerce.</p>
-                <a class="btn btn-primary" href="#">
+                <button class="btn btn-primary">
                   Voir le site
-                </a>
+                </button>
               </div>
               <p class="card-footer text-muted mb-0">
                 Utilisation des outils SEO
@@ -92,9 +99,9 @@ const Projects = () => {
               <div class="card-body">
                 <h2>Création d'une API</h2>
                 <p>Création d'une API RESTFULL publique.</p>
-                <a class="btn btn-primary" href="#">
+                <button class="btn btn-primary">
                   Voir le site
-                </a>
+                </button>
               </div>
               <p class="card-footer text-muted mb-0">PHP - SYMFONY</p>
             </article>
@@ -105,9 +112,9 @@ const Projects = () => {
               <div class="card-body">
                 <h2>Maquette d'un site web</h2>
                 <p>Création du prototype d'un site.</p>
-                <a class="btn btn-primary" href="#">
+                <button class="btn btn-primary">
                   Voir le site
-                </a>
+                </button>
               </div>
               <p class="card-footer text-muted mb-0">Réalisée avec FIGMA</p>
             </article>

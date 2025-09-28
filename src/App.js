@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import "./styles.css";
 
 export default function App() {

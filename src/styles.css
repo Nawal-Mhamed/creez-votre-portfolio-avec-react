@@ -1,4 +1,5 @@
-/* Default font */
+/* Default*/
+
 
 * {
   font-family: "Nunito Sans", sans-serif;
@@ -12,6 +13,28 @@ strong {
   font-weight: 600;
 }
 
+
+i {
+  font-size: 1rem;
+}
+
+footer a i {
+  margin: 0rem 0.5rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: rgba(108, 117, 125, 0.6);
+  text-align: left;
+}
+
+.bi-brush,
+.bi-code-slash,
+.bi-search {
+  font-size: 3rem;
+  color: #0d6efd;
+  font-size: 3rem;
+}
+
+
 /* Classes */
 
 .App {
@@ -24,8 +47,10 @@ strong {
 }
 
 .wh-24 {
-  width: 24px;
-  height: 24px;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
 }
 
 .img-bg-header {
