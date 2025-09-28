@@ -30,6 +30,14 @@ const Home = () => {
   return (
     <div>
 
+      { /* Changement nom de la page */ }
+
+      <head>
+        <title>John Doe - Contact</title>
+      </head>
+
+      { /* Contenu de la page */ }
+
     <main>
 
       {/* Header */}
@@ -223,8 +231,8 @@ const Home = () => {
 
             { /* HTML */ }
 
-            <p className="mb-0">HTML5 90%</p>
-              <div className="progress mb-3">
+            <p>HTML5 90%</p>
+              <div className="progress">
                 <div
                   className="progress-bar bg-danger"
                   role="progressbar"
@@ -238,8 +246,8 @@ const Home = () => {
 
             { /* CSS3 */ }
 
-            <p className="mb-0">CSS3 80% </p>
-              <div className="progress mb-3">
+            <p>CSS3 80% </p>
+              <div className="progress">
                 <div
                   className="progress-bar bg-info"
                   role="progressbar"
@@ -253,8 +261,10 @@ const Home = () => {
 
             { /* Javascript */ }
 
-            <p className="mb-0">JAVASCRIPT 70%</p>
-              <div className="progress mb-3">
+            <p>
+              JAVASCRIPT 70%
+              </p>
+              <div className="progress">
                 <div
                   className="progress-bar bg-warning"
                   role="progressbar"
@@ -268,8 +278,9 @@ const Home = () => {
 
             { /* PHP */ }
 
-            <p className="mb-0">PHP 60%</p>
-              <div className="progress mb-3">
+            <p>
+              PHP 60%
+              <div className="progress">
                 <div
                   className="progress-bar bg-success"
                   role="progressbar"
@@ -280,11 +291,13 @@ const Home = () => {
                   aria-valuemax="100"
                 ></div>
               </div>
+            </p>
 
             { /* ReactJS */ }
 
-            <p className="mb-0">REACT 50%</p>
-              <div className="progress mb-3">
+            <p>
+              REACT 50%
+              <div className="progress">
                 <div
                   className="progress-bar bg-primary"
                   role="progressbar"
@@ -295,6 +308,7 @@ const Home = () => {
                   aria-valuemax="100"
                 ></div>
               </div>
+            </p>
 
           </article>
 
