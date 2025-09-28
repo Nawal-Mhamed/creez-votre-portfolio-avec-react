@@ -3,6 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
+  <header className="sticky-top">
+
     <nav className="text-uppercase navbar navbar-expand-lg navbar-dark bg-dark">
       
       <div className="container-fluid">
@@ -128,6 +130,7 @@ const Nav = () => {
       </div>
 
     </nav>
+  </header>
   );
 };
 
